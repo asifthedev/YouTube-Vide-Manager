@@ -76,4 +76,6 @@ graph TD;
 
 - **`main()`:** The main function of the application, which manages the user interface and handles user input.
 
-This documentation provides an overview of the YouTube Video Manager application, its functionality, and how it works. The flow diagram and function details aim to make it easy for developers to understand and contribute to the project.
+## Connect with me
+
+- [LinkedIn](https://linkedin.com/in/asif-shahzad-833435280)
