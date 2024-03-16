@@ -1,8 +1,15 @@
-### YouTube Video Manager
+
+
+# 📍 YouTube Video Manager (PYTHON)
 
 This is a CRUD (Create, Read, Update, Delete) application designed to manage YouTube video data. It allows users to perform various operations such as listing all YouTube videos, adding new videos, deleting existing videos, updating video details, and even deleting all videos in one go.
 
-#### How it Works
+<div style="text-align:center">
+  <a href="https://ibb.co/f06g450"><img src="https://i.ibb.co/zf9MGYf/You-Tube-Manager-3.png" alt="You-Tube-Manager-3" border="0"></a>
+</div>
+
+
+## ⚒️ How it Works
 
 1. **List all YouTube videos**: This option displays a list of all the YouTube videos currently stored in the application.
 
@@ -16,13 +23,13 @@ This is a CRUD (Create, Read, Update, Delete) application designed to manage You
 
 6. **Exit the app**: Terminates the application.
 
-#### Functionality
+## ⭐ Functionality
 
 - **Loading and Saving Data**: The application loads video data from a JSON file (`videos_data.json`) when launched and saves any changes made by the user back to the same file.
 
 - **Exception Handling**: The application handles possible exceptions such as file not found errors when attempting to load data.
 
-#### Flow Diagram
+## 🔶 Flow Diagram
 
 ```mermaid
 graph TD;
@@ -43,13 +50,13 @@ graph TD;
     J --> D;
 ```
 
-#### Notes:
+## Notes:
 
 - **Modern Color Scheme**: The diagram uses modern colors to enhance visual appeal and clarity.
 - **Handling Exceptions**: The application handles critical exceptions gracefully to ensure smooth operation.
 - **File Handling**: Video data is stored and retrieved from a JSON file (`videos_data.json`). If the file doesn't exist, an empty list is provided.
 
-### Function Details
+## Function Details
 
 - **`file_opener(file_name, open_in_mode)`:** This function opens a file with the specified mode. It returns the file content if the file exists, or an empty list if the file is not found.
 
